@@ -158,7 +158,7 @@ document.querySelectorAll(".reveal").forEach(r => obs.observe(r));
 
 
 // ── 3D TILT ON CARDS ───────────────────────────────────────
-document.querySelectorAll(".project-card, .skill-card").forEach(card => {
+document.querySelectorAll(".project-card:not(.project-featured):not(.project-wide), .skill-card").forEach(card => {
   card.addEventListener("mousemove", e => {
     const rc = card.getBoundingClientRect();
     const x  = e.clientX - rc.left  - rc.width  / 2;
