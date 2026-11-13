@@ -193,6 +193,7 @@
             <span class="tag">Account Management</span>
             <span class="tag">YouTube Channel Management</span>
             <span class="tag">Brochure Design</span>
+            <span class="tag">Template Design</span>
             <span class="tag">Digital Marketing</span>
             <span class="tag">Promotional Creatives</span>
           </div>
@@ -230,31 +231,32 @@
           </div>
           <div class="project-body">
             <div class="project-title">Abhipray: Digital Festival Archive</div>
-            <div class="project-sub">SAWAI GANDHARVA BHIMSEN MAHOTSAV · V2</div>
+            <div class="project-sub">SAWAI GANDHARVA BHIMSEN MAHOTSAV</div>
             <div class="proj-stats">
               <div><b>650+</b><span>Abhiprays</span></div>
               <div><b>2002–26</b><span>50th–72nd Mahotsav</span></div>
               <div><b>3</b><span>Languages</span></div>
-              <div><b>₹0</b><span>Hosting Cost</span></div>
             </div>
+            <p class="project-purpose">A digital archive that preserves 20+ years of handwritten and typed impressions ("abhiprays") from listeners, artists and dignitaries at Pune's Sawai Gandharva Bhimsen Mahotsav, collected by Mr. Jagdish Deshpande, and invites new memories from visitors.</p>
             <ul class="project-points">
-              <li>Full-stack archive of handwritten and typed festival impressions collected by client Mr. Jagdish Deshpande, in English, Hindi and Marathi.</li>
-              <li>Built personalised festival cards rendered with the Canvas API: 8 designs, Story and Square formats, text-adaptive layouts, shareable to WhatsApp, Instagram and Facebook.</li>
-              <li>Migrated from Flask, PostgreSQL and Kubernetes to Cloudflare serverless (Pages Functions, D1, Workers KV), with redirects so old URLs keep working.</li>
-              <li>Security-hardened through two audits: strict CSP with SRI, PBKDF2 hashing, signed HttpOnly sessions, rate limiting and Turnstile. Photo uploads are stripped of EXIF/GPS data and published only with consent.</li>
-              <li>Mobile-friendly admin panel for moderation, photo approvals and homepage curation.</li>
-              <li>52 unit tests plus 25 security regression tests; SonarQube quality gate passing with 0 issues.</li>
+              <li><strong>Archive:</strong> browse original scans by Mahotsav and by type (typed or handwritten), search by name, and zoom into each scan.</li>
+              <li><strong>Submit an abhipray:</strong> visitors share their own typed or handwritten impressions, optionally with a photo from their phone camera or webcam.</li>
+              <li><strong>Abhipray Cards:</strong> personalised festival cards in 8 designs (Story and Square formats), shareable to WhatsApp, Instagram and Facebook.</li>
+              <li><strong>Memories Gallery:</strong> every approved abhipray shown as a card, with filters and live search, plus a Featured Memories carousel on the homepage.</li>
+              <li><strong>Famous Personalities:</strong> a hall of honour for artists, gurus and dignitaries.</li>
+              <li><strong>Three languages:</strong> English, Hindi and Marathi, with original abhiprays never translated.</li>
+              <li><strong>Admin panel:</strong> moderating submissions and choosing what appears on the homepage, from a phone or laptop.</li>
             </ul>
             <div class="project-tech">
+              <span class="tech-chip">HTML/CSS</span>
               <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">Bootstrap 5</span>
               <span class="tech-chip">Canvas API</span>
               <span class="tech-chip">Cloudflare Pages</span>
               <span class="tech-chip">D1 (SQLite)</span>
               <span class="tech-chip">Workers KV</span>
-              <span class="tech-chip">Turnstile</span>
-              <span class="tech-chip">Bootstrap 5</span>
-              <span class="tech-chip">SonarQube</span>
             </div>
+            <div class="tech-note">Version 1: Python · Flask · PostgreSQL · Docker · Kubernetes</div>
             <div class="live-badge">🌐 Live in Production · abhipray.in</div>
             <a href="https://abhipray.in" target="_blank" rel="noopener noreferrer" class="project-link">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -283,7 +285,7 @@
               <li>Dashboard with a GitHub-style contribution calendar, Chart.js weekly and monthly trends, and per-contributor details.</li>
               <li>Scoring that can't be gamed: PostgreSQL triggers calculate points, unique constraints stop double counting, future-dated commits are rejected, and Row Level Security allows only admins to write.</li>
               <li>Hourly GitHub → Supabase sync through GitHub Actions, triggered by cron-job.org, that handles API rate limits, retries and resumable syncs so no commit is missed.</li>
-              <li>Covered by 29 unit tests, database integration tests and Playwright end-to-end tests; runs at ₹0 on GitHub Pages and Supabase.</li>
+              <li>Covered by 29 unit tests, database integration tests and Playwright end-to-end tests; hosted on GitHub Pages with Supabase.</li>
             </ul>
             <div class="project-tech">
               <span class="tech-chip">JavaScript</span>
@@ -464,6 +466,7 @@
           <div class="exp-period">Present</div>
         </div>
         <ul class="exp-points">
+          <li>Design templates for the channel's visuals.</li>
           <li>Edit the channel's cooking videos for publishing on YouTube.</li>
           <li>Manage the YouTube channel and its account.</li>
         </ul>
