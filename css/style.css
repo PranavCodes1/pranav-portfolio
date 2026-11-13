@@ -284,7 +284,6 @@ section { position:relative; z-index:2; }
 .arch code { font-family:"Space Mono",monospace; font-size:.68rem; color:var(--accent3); }
 
 .project-purpose { font-size:.86rem; color:var(--text-mid); line-height:1.6; margin-bottom:.5rem; }
-.tech-note { font-family:"Space Mono",monospace; font-size:.56rem; color:var(--text-dim); letter-spacing:.04em; margin:-.45rem 0 .95rem; }
 .project-tagline { font-style:italic; font-size:.84rem; color:var(--accent2); margin:-.4rem 0 .6rem; }
 .project-links { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:auto; }
 .project-links .project-link { margin-top:0; }
